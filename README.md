@@ -14,7 +14,7 @@ Ce projet explore la relation entre l'usage des pronoms personnels et les expres
   - **Émotionnelle**
   - **Comportementale**
   - **Cognitive**
-- Application d’un modèle de classification zéro-shot (`MoritzLaurer/bge-m3-zeroshot-v2.0`) pour détecter la présence de ces items dans les descriptions.
+- Application d’un modèle de classification zéro-shot[`MoritzLaurer/bge-m3-zeroshot-v2.0`](https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0) pour détecter la présence de ces items dans les descriptions.
 - Calcul d’un **score global de politesse** par moyenne pondérée.
 - Régression linéaire OLS entre les fréquences des pronoms et le score de politesse.
 
@@ -32,7 +32,3 @@ Pour assurer la robustesse et la pertinence des items utilisés pour mesurer la 
 - Les trois types de pronoms sont significativement liés à la politesse.
 - La **deuxième personne** a l’effet le plus marqué, ce qui confirme son rôle dans l’interaction interpersonnelle.
 - Les pronoms sont davantage associés à la **politesse émotionnelle** qu’à la politesse comportementale.
-
-## 🔍 Modèle utilisé
-
-- [`MoritzLaurer/bge-m3-zeroshot-v2.0`](https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0)
